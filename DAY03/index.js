@@ -1,12 +1,11 @@
-let idade = Number(prompt('digite sua idade'))
-let nome = prompt('insira seu nome')
+// variaveis let e const
+let nome ="Henrique Figueredo"
+console.log(nome)
+nome = 'The Diamond'
+console.log(nome)
 
-if(idade === 20 && nome === 'henrique'){
-    console.log('voce tem 20 anos e se chama henrique')
-}
-
-if(idade === 20 || nome === 'henrique'){
-    console.log('voce tem 20 anos ou se chama henrique')
-}else{
-    console.log('voce nao tem 20 anos nem se chama henrique')
-}
+const myname ="Henrique Figueredo"
+console.log(myname)
+myname = 'The Diamond'
+console.log(myname)
+// const nao pode ser alterada dps de ser definida 
