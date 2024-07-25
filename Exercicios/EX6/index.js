@@ -1,3 +1,4 @@
+
 let valor = parseInt(prompt('digite um numero inteiro e positivo'))
 for(let i = 0; i <= valor; i++){
     console.log(i)
